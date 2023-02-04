@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: 2px solid red;
+   
+}
+
+body{
+    background-color: rgb(50, 81, 123);
+    
+    
+}
+.top {
+   
+    color: aliceblue;
+    background-color: darkgray;
+    margin: 2rem;
+    justify-items: center;
+    
+}
+.top h1{
+   text-align: center;
+    
+    
+}
+.container{
+    padding: 180px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.button{
+    min-width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    margin: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
